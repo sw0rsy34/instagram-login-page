@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram - Şifre Değiştir</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #fafafa;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .logo {
+            width: 175px; /* Logo boyutunu ayarladım */
+            margin-bottom: 20px;
+        }
+        .heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .info-text {
+            font-size: 14px;
+            color: #8e8e8e;
+            margin-bottom: 20px;
+        }
+        .input-field {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #3897f0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #3078c6;
+        }
+        .forgot-password {
+            font-size: 12px;
+            color: #00376b;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Fotoğrafı başlık yerine ekledim -->
+        <strong><div class="heading">Hesabını  güvene almak <br> için şifreni değiştir</div></strong>
+        <div class="info-text">
+            Bunun sen olmadığını söylediğin için hesabını<br> güvende tutmak için şifreni güncelle. 
+            Bu <br>oturum hariç, tüm oturumlardan çıkışın <br> yapılacak ve böylece hesabına girmeye <br>çalışan kişilerin artık hesabına erişimi <br>olmayacak.
+        </div>
+        <input type="password" class="input-field" placeholder="Yeni şifre" required>
+        <input type="password" class="input-field" placeholder="Yeni şifre, tekrar" required>
+        <button class="button">Gönder</button>
+    </div>
+</body>
+</html>
